@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/ll_layout_swipe"
+        android:layout_below="@+id/toolbar"
+        android:layout_above="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.33"
+                android:layout_gravity="right"
+                android:background="@color/offwhite"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.67"
+                android:layout_gravity="right"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.33"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginTop="@dimen/size_5"
+                android:textSize="@dimen/size_26"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/tv_file_name"
+                android:layout_width="0dp"
+                android:layout_weight="0.67"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="@dimen/size_16"
+                android:fontFamily="@font/latoregular"
+                android:layout_marginTop="@dimen/size_5"
+                android:textColor="@color/grey"
+                android:textStyle="bold"
+                android:text="@string/example"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.33"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="@dimen/size_26"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/tv_file_crated_date"
+                android:layout_width="0dp"
+                android:layout_weight="0.67"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_16"
+                android:fontFamily="@font/latoregular"
+                android:textColor="@color/grey"
+                android:layout_marginBottom="@dimen/size_5"
+                android:text="20/4/19"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.33"
+                android:layout_gravity="right"
+                android:background="@color/offwhite"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.67"
+                android:layout_gravity="right"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

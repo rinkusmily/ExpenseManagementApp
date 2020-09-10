@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_gray"
+    tools:context=".activities.CuruencySelecterAcitivity">
+
+  <!--  <Spinner
+        android:id="@+id/edt_currency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/currency"
+        android:background="@drawable/btn_bg"
+        android:padding="@dimen/size_20"
+        android:layout_marginRight="@dimen/size_30"
+        android:layout_marginLeft="@dimen/size_30"
+        android:layout_marginTop="@dimen/size_26"
+        android:dropDownSelector="@color/black2"
+        android:fontFamily="@font/latoregular"
+        android:textColor="@color/lightgrey2"
+        android:inputType="textEmailAddress"
+
+        android:textColorHint="@color/lightgrey2"
+
+        />-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:padding="@dimen/size_10"
+        android:layout_marginRight="@dimen/size_30"
+        android:layout_marginLeft="@dimen/size_30"
+        android:layout_marginTop="@dimen/size_26">
+
+
+        <Spinner
+            android:id="@+id/edt_currency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tooltipText="@string/select_language"
+             android:background="@color/gray_white"
+            android:fontFamily="@font/latoregular"
+
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

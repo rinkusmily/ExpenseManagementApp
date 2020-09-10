@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white2"
+    tools:context=".activities.Register">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_createac"
+                android:textSize="@dimen/size_28"
+                android:textColor="@color/grey"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:fontFamily="@font/latoregular"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/size_20"
+                android:layout_marginLeft="@dimen/size_20"
+                android:layout_marginTop="@dimen/size_50"
+                android:layout_marginBottom="@dimen/size_10"
+                android:text="@string/sign_in_txt" />
+
+
+
+            <EditText
+                android:id="@+id/edt_email_phn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_phone_txt"
+                android:background="@drawable/btn_bg"
+                android:padding="@dimen/size_14"
+                android:layout_marginRight="@dimen/size_30"
+                android:layout_marginLeft="@dimen/size_30"
+                android:layout_marginTop="@dimen/size_26"
+                android:fontFamily="@font/latoregular"
+                android:textColor="@color/lightgrey"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/lightgrey2"
+                />
+
+
+            <EditText
+                android:id="@+id/edt_pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_30"
+                android:layout_marginTop="@dimen/size_26"
+                android:layout_marginRight="@dimen/size_30"
+                android:background="@drawable/btn_bg"
+                android:fontFamily="@font/latoregular"
+                android:hint="@string/password_txt"
+                android:inputType="numberPassword"
+                android:padding="@dimen/size_14"
+                android:maxLength="4"
+                android:textColor="@color/lightgrey"
+                android:textColorHint="@color/lightgrey2" />
+
+            <TextView
+                android:id="@+id/tv_sign_in"
+                android:textSize="@dimen/size_14"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="@dimen/size_14"
+                android:background="@drawable/grey_roundedbg"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/size_30"
+                android:fontFamily="@font/latoregular"
+                android:layout_marginLeft="@dimen/size_30"
+                android:layout_marginTop="@dimen/size_30"
+                android:textStyle="bold"
+                android:text="@string/sign_in_txt"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_enterguac"
+                android:textSize="@dimen/size_14"
+                android:textColor="@color/grey"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/size_18"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/latoregular"
+                android:text="@string/enterguest"
+                android:visibility="gone"
+                />
+
+            <RelativeLayout
+                android:id="@+id/rl_terms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/size_24"
+                android:layout_marginLeft="@dimen/size_24"
+                android:layout_marginTop="@dimen/size_10"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:clickable="true">
+
+
+                <TextView
+                    android:id="@+id/tv_terms1"
+                    android:textSize="@dimen/size_14"
+                    android:textColor="@color/lightgrey"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/latoregular"
+                    android:text="@string/bycreateaccount"
+                    android:visibility="gone"
+                    />
+                <TextView
+                    android:id="@+id/tv_terms2"
+                    android:textSize="@dimen/size_14"
+                    android:textColor="@color/lightgrey"
+                    android:layout_width="wrap_content"
+                    android:gravity="left"
+                    android:fontFamily="@font/latoregular"
+                    android:layout_toRightOf="@+id/tv_terms1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_3"
+                    android:text="@string/terms"
+                    android:visibility="gone"
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/size_44"
+                android:layout_marginLeft="@dimen/size_44"
+                android:layout_marginTop="@dimen/size_7"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:clickable="true">
+
+
+                <TextView
+                    android:id="@+id/tv_sign1"
+                    android:textSize="@dimen/size_14"
+                    android:textColor="@color/lightgrey"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/latoregular"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dnt_have_acc"
+                    android:visibility="gone"
+                    />
+                <TextView
+                    android:id="@+id/tv_sign2"
+                    android:textSize="@dimen/size_14"
+                    android:textColor="@color/lightgrey2"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:fontFamily="@font/latoregular"
+                    android:layout_toRightOf="@+id/tv_sign1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_3"
+                    android:text="@string/createaccount"
+                    android:textAlignment="center"
+                    />
+                <TextView
+                    android:id="@+id/tv_forgot_password"
+                    android:textSize="@dimen/size_14"
+                    android:textColor="@color/lightgrey2"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_below="@+id/tv_sign2"
+                    android:fontFamily="@font/latoregular"
+                    android:layout_toRightOf="@+id/tv_sign1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_3"
+                    android:text="@string/forgot_password"
+                    android:padding="10dp"
+
+                    />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

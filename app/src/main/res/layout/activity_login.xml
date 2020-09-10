@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white2"
+    tools:context=".activities.Login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_login"
+            android:textSize="@dimen/size_28"
+            android:textColor="@color/grey"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/latoregular"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size_20"
+            android:layout_marginLeft="@dimen/size_20"
+            android:layout_marginTop="@dimen/size_80"
+            android:layout_marginBottom="@dimen/size_10"
+            android:text="@string/login" />
+
+        <RelativeLayout
+            android:id="@+id/rl_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
+            android:layout_marginRight="@dimen/size_44"
+            android:layout_marginLeft="@dimen/size_44"
+            android:layout_marginTop="@dimen/size_10"
+            android:layout_marginBottom="@dimen/size_10"
+            android:orientation="horizontal"
+            android:padding="@dimen/size_12"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/tv_google"
+                android:layout_marginRight="@dimen/size_14"
+                android:tint="@color/black2"
+                android:src="@drawable/ic_google_plus" />
+
+            <TextView
+                android:id="@+id/tv_google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/size_18"
+                android:textStyle="bold"
+                android:fontFamily="@font/latoregular"
+                android:text="@string/google" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_ios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
+            android:layout_marginRight="@dimen/size_44"
+            android:layout_marginLeft="@dimen/size_44"
+            android:layout_marginTop="@dimen/size_10"
+            android:layout_marginBottom="@dimen/size_10"
+            android:orientation="horizontal"
+            android:padding="@dimen/size_12"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/tv_ios"
+                android:layout_marginRight="@dimen/size_14"
+                android:layout_centerVertical="true"
+                android:tint="@color/black2"
+                android:src="@drawable/ic_ios" />
+
+            <TextView
+                android:id="@+id/tv_ios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/size_18"
+                android:fontFamily="@font/latoregular"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:text="@string/ios" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:textSize="@dimen/size_18"
+            android:textColor="@color/lightgrey2"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/latoregular"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size_20"
+            android:layout_marginLeft="@dimen/size_20"
+            android:layout_marginTop="@dimen/size_10"
+            android:text="@string/or" />
+
+        <TextView
+            android:id="@+id/tv_create_account"
+            android:textSize="@dimen/size_14"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:padding="@dimen/size_14"
+            android:background="@drawable/grey_roundedbg"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size_44"
+            android:fontFamily="@font/latoregular"
+            android:layout_marginLeft="@dimen/size_44"
+            android:layout_marginTop="@dimen/size_10"
+            android:layout_marginBottom="@dimen/size_10"
+            android:textStyle="bold"
+            android:text="@string/createaccount"
+            />
+        <RelativeLayout
+            android:id="@+id/rl_terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size_24"
+            android:layout_marginLeft="@dimen/size_24"
+            android:layout_marginTop="@dimen/size_20"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:clickable="true">
+
+
+            <TextView
+                android:id="@+id/tv_terms1"
+                android:textSize="@dimen/size_14"
+                android:textColor="@color/lightgrey2"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/latoregular"
+                android:text="@string/bycreateaccount"
+                />
+            <TextView
+                android:id="@+id/tv_terms2"
+                android:textSize="@dimen/size_14"
+                android:textColor="@color/lightgrey"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:fontFamily="@font/latoregular"
+                android:layout_toRightOf="@+id/tv_terms1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_3"
+                android:text="@string/terms"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size_44"
+            android:layout_marginLeft="@dimen/size_44"
+            android:layout_marginTop="@dimen/size_7"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:clickable="true">
+
+
+            <TextView
+                android:id="@+id/tv_sign1"
+                android:textSize="@dimen/size_14"
+                android:textColor="@color/lightgrey2"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/latoregular"
+                android:layout_height="wrap_content"
+                android:text="@string/alreadyacc"
+                />
+            <TextView
+                android:id="@+id/tv_sign2"
+                android:textSize="@dimen/size_14"
+                android:textColor="@color/lightgrey"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:fontFamily="@font/latoregular"
+                android:layout_toRightOf="@+id/tv_sign1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_3"
+                android:text="@string/signin"
+                />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

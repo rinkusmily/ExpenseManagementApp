@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+
+        <item>Select Currency</item>
+        <item>Argentina $</item>
+        <item>Brasil R$</item>
+        <item>Mexico Mex$</item>
+        <item>USA $</item>
+        <item>Canada C$</item>
+        <item>EU €</item>
+        <item>Turkey ₺</item>
+        <item>Rumania lei</item>
+        <item>Bulgray Лв.</item>
+        <item>Polka €</item>
+        <item>Ukraine ₴</item>
+        <item>Coratia kn</item>
+        <item>South_Africa R</item>
+        <item>Australia A$</item>
+        <item>England £</item>
+
+
+
+
+
+<!--        <item>AFN Ø‹ </item>
+        <item>AMD Õ¤Ö€</item>
+        <item>AZN â‚¼</item>
+        <item>AED Ø¯.Ø¥</item>
+        <item>BHD .Ø¨.Ø¯</item>
+        <item>BDT à§³</item>
+        <item>BTN Nu</item>
+        <item>BND $</item>
+        <item>KHR áŸ›</item>
+        <item>CNY Â¥</item>
+        <item>CYP Â£</item>
+        <item>GEL áƒš</item>
+        <item>INR â‚¹ </item>
+        <item>IDR Rp </item>
+        <item>IQD Ø¹.Ø¯</item>
+        <item>VUV VT</item>
+        <item>ILS â‚ª</item>
+        <item>JPY Â¥</item>
+        <item>JOD Ø¯.Ø§</item>
+        <item>KZT Ð»Ð².</item>
+        <item>KWD Ø¯.Ùƒ</item>
+        <item>KGS Ð»Ð²</item>
+        <item>LAK â‚­</item>
+
+        <item>LBP Â£</item>
+        <item>MYR RM</item>
+        <item>MVR Rf</item>
+        <item>MNT â‚®</item>
+        <item>MMK K</item>
+        <item>NPR â‚¨</item>
+        <item>KPW â‚©</item>
+        <item>OMR ï·¼</item>
+        <item>PKR â‚¨</item>
+        <item>JOD Ø¯.Ø§</item>
+        <item>PHP â‚±</item>
+        <item>QAR ï·¼</item>
+        <item>RUB â‚½ </item>
+        <item>SAR ï·¼</item>
+        <item>SGD $</item>
+        <item>KRW â‚©</item>
+        <item>LKR â‚¨</item>
+        <item>SYP Â£</item>
+        <item>TWD NT$</item>
+        <item>TJS Ð…M</item>
+        <item>THB à¸¿</item>
+        <item>USD $</item>
+
+        <item>TRY ₺</item>
+        <item>TMM T</item>
+        <item>AED د.إ</item>
+        <item>UZS лв</item>
+        <item>VND ₫</item>
+        <item>YER ﷼</item>
+        <item>DZD دج</item>
+        <item>AOA Kz</item>
+        <item>XOF CFA</item>
+        <item>BWP P</item>
+        <item>XOF CFA</item>
+        <item>BIF FBu</item>
+        <item>CVE $</item>
+        <item>XAF FCFA</item>
+        <item>KMF CF</item>
+        <item>CDF FC</item>
+        <item>XAF FCFA</item>
+        <item>XOF CFA</item>
+        <item>DJF Fdj</item>
+        <item>BWP £</item>-->
+ <!--       <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+-->
+
+
+
+    </string-array>
+
+
+    <string-array name="items2">
+        <item>Select Language</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>português</item>
+        <item>Italiano</item>
+        <item>Deutsche</item>
+        <item>Français</item>
+        <item>Türk</item>
+
+
+    </string-array>
+
+
+</resources>

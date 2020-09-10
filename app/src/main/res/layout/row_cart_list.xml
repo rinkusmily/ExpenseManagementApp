@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/size_10"
+        android:background="@color/lightgrey"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/size_5"/>
+
+    <LinearLayout
+        android:id="@+id/ll_car_click"
+        android:paddingTop="@dimen/size_5"
+        android:paddingBottom="@dimen/size_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="0dp"
+            android:layout_weight="0.14"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center|left"
+            android:textSize="10dp"
+            android:textColor="@color/grey2"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:fontFamily="@font/latoregular"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/tv_vehicle_name"
+            android:layout_width="0dp"
+            android:layout_weight="0.14"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center|left"
+            android:textSize="@dimen/size_10"
+            android:textColor="@color/grey2"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:fontFamily="@font/latoregular"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/tv_vehicle_number"
+            android:layout_width="0dp"
+            android:layout_weight="0.14"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center|left"
+            android:textSize="@dimen/size_10"
+            android:textColor="@color/grey2"
+            android:text=""
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:fontFamily="@font/latoregular"
+
+            />
+        <TextView
+            android:id="@+id/tv_paid_out"
+            android:layout_width="0dp"
+            android:layout_weight="0.14"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center|left"
+            android:textSize="@dimen/size_10"
+            android:textColor="@color/grey2"
+            android:fontFamily="@font/latoregular"
+            android:text=""
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+        <ImageView
+            android:id="@+id/img_finished"
+            android:layout_width="0dp"
+            android:layout_weight="0.14"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/size_10"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/latoregular"
+            android:src="@drawable/shape_carlist"
+            />
+        <ImageView
+            android:id="@+id/img_invoiced"
+            android:layout_width="0dp"
+            android:layout_weight="0.13"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/size_10"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/latoregular"
+            android:src="@drawable/shape_carlist"
+            />
+        <ImageView
+            android:id="@+id/img_paid_out"
+            android:layout_width="0dp"
+            android:layout_weight="0.15"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/size_10"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/latoregular"
+            android:src="@drawable/shape_carlist"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

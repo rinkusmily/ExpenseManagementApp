@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "223650567703",
+    "firebase_url": "https://expense-manageme-1587724838635.firebaseio.com",
+    "project_id": "expense-manageme-1587724838635",
+    "storage_bucket": "expense-manageme-1587724838635.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223650567703:android:eef751362ccfc01d9aee52",
+        "android_client_info": {
+          "package_name": "com.shrinkcom.expensemanagementapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223650567703-f11t4thha8trmispfumn8h7enrtjdkl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvEN88heLrbsMd0cNWCq-jks5wyhN3zq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223650567703-f11t4thha8trmispfumn8h7enrtjdkl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

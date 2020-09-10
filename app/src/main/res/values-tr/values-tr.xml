@@ -1,0 +1,270 @@
+<resources>
+    <string name="app_name">ExpenseManagementApp</string>
+   <!-- <string name="splashtext1">MEJOR QUE EL PAPEL</string>-->
+    <string name="splashtext2">Toca para continuar..</string>
+    <string name="login">Oturum aç</string>
+    <string name="google">Google</string>
+    <string name="ios">iOS</string>
+    <string name="or">VEYA</string>
+    <string name="createaccount">hesabını oluştur</string>
+
+    <string name="bycreateaccount">Bir hesap oluşturarak,</string>
+    <string name="terms"><u>şartlar</u></string>
+    <string name="alreadyacc">Zaten hesabınız var mı?</string>
+    <string name="signin"><u>Oturum aç</u></string>
+    <string name="hail">HAIL</string>
+    <string name="Note">NOTE</string>
+    <string name="hailmonth">Hail/ Month</string>
+    <string name="houston">HOUSTON,TX</string>
+    <string name="example">MİSAL</string>
+    <string name="find">bulmak</string>
+    <string name="settings">Ayar</string>
+    <string name="currency">Para birimi</string>
+    <string name="Appearance">Görünüm</string>
+    <string name="Security">Güvenlik</string>
+    <string name="pinlock">PIN kilidi</string>
+    <string name="touch_lock">Parmak İzi Kilidi</string>
+    <string name="enable_dark_mode">Karanlık Modu Etkinleştir</string>
+    <string name="from_date">Başlangıç ​​Tarihi</string>
+    <string name="to_date">Bitiş Tarihi</string>
+
+
+    <string name="Backup">Destek olmak</string>
+    <string name="Adavancedsettings">Uyarlanmış Ayarlar</string>
+    <string name="Export">Dosya Olarak Dışa Aktar</string>
+    <string name="makepro">PRO olun !!</string>
+    <string name="logout">Oturumu Kapat</string>
+
+
+    <!--alert messages and toast messges-->
+    <string name="are_your_sure">Çıkış yapmak istediğinizden emin misiniz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="forgot_password">Parolanızı mı unuttunuz ?</string>
+
+
+    <string name="expenses">Masraflar</string>
+    <string name="Hotel">Otel</string>
+    <string name="Fuel">Yakıt</string>
+    <string name="Food">Yakıt</string>
+    <string name="Tools">Araçlar</string>
+    <string name="Tickets">Biletler</string>
+
+    <string name="payment">Ödeme</string>
+    <string name="cash">Nakit</string>
+    <string name="pay">Ödeme Çeki</string>
+    <string name="bank">Banka transferi</string>
+    <string name="date">Banka transferi</string>
+    <string name="Automatic">Otomatik</string>
+    <string name="model">model</string>
+    <string name="plateorvin">Plaka / VIN</string>
+    <string name="notes">notlar</string>
+    <string name="ok">tamam</string>
+    <string name="entry">Gelir</string>
+    <string name="type">tip</string>
+    <string name="transfer">Aktar</string>
+    <string name="today">Bugün (2020/07/04)</string>
+    <string name="takings">hasılat</string>
+    <string name="balance">Denge</string>
+    <string name="payments">Ödemeler</string>
+    <string name="movememnts">Hareketler</string>
+    <string name="car">Araba listesi</string>
+    <string name="all">Herşey</string>
+    <string name="fastfind">Hızlı Bul</string>
+    <string name="Share">Paylaş</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="config">Buradan her şeyi yapılandırın</string>
+    <string name="clickhere">yeni bir belge eklemek ve ona bir isim vermek için burayı tıklayın</string>
+    <string name="dontshow">bir daha gösterme</string>
+    <string name="finddoc">Belgenizi burada bulun</string>
+    <string name="enentdate">etkinlik tarihi</string>
+    <string name="exampleofpayment">ödeme türü örneği (gösteri türü)</string>
+    <string name="shownnote">ekli notu göster</string>
+
+    <string name="vehicle">araç</string>
+    <string name="Price">Fiyat</string>
+    <string name="Finished">bitmiş</string>
+    <string name="Invoiced">Faturalandı</string>
+    <string name="Paid">Ödenen</string>
+    <string name="putname">Put the name you want for your work( the city name, the month , ite your choice!!! </string>
+    <string name="putcreate">Put to create a new movement</string>
+    <string name="swipe">Hareketlerinizi sıralayarak görmek için sağa veya sola kaydırın (gelir-gider-ödemeler)</string>
+    <string name="findmove">Find your movements\nfast !!!</string>
+    <string name="sharefiles">Dosyalarınızı paylaşın veya pdf / cvs dosyasını dışa aktarın</string>
+
+    <string name="Createac">hesabını oluştur</string>
+
+    <!--sign in screen-->
+    <string name="sign_in_txt">Oturum aç</string>
+    <string name="email_phone_txt">E-posta / telefon girin</string>
+    <string name="mobile_phn_txt">Mobil No. Girin </string>
+    <string name="country_code">+54</string>
+    <string name="password_txt">Parolanı Gir</string>
+    <string name="dnt_have_acc">Hesabınız yok mu?</string>
+
+    <!--sign up validation string-->
+    <string name="enter_name">Lütfen isim girin</string>
+    <string name="enter_email">Lütfen e-posta giriniz</string>
+    <string name="enter_valid_email">Lütfen geçerli bir e-posta adresi girin</string>
+    <string name="enter_valid_mob">Lütfen geçerli bir cep telefonu numarası girin.</string>
+
+    <!--login-->
+    <string name="enter_email_phn">Lütfen e-posta veya cep telefonu numarası girin.</string>
+    <string name="enter_confirm_email">Lütfen onay e-postasını girin</string>
+    <string name="enter_phone">Lütfen telefonu girin</string>
+    <string name="enter_c_code">Lütfen önce ülke kodunu girin</string>
+    <string name="enter_pin">Lütfen pin girin</string>
+    <string name="enter_confirm_pin">Lütfen Phin\'i Onayla girin</string>
+    <string name="next">Sonraki</string>
+
+
+    <!--Reset pin-->
+    <string name="enter_new_pin">Lütfen yeni PIN girin</string>
+    <string name="enter_cinferm_pin">Lütfen onay PIN\'ini girin</string>
+    <!--   <string name="pin_not_match">PIN not match</string>-->
+
+    <!--register-->
+    <string name="entername">Adınızı giriniz</string>
+    <string name="enteremail">E-posta Girin</string>
+    <string name="confirmemail">E-posta Onayla</string>
+    <string name="enterpin">PIN kodunu girin (4 numara)</string>
+    <string name="confirmpin">PIN kodunu onayla (4 numara)</string>
+    <string name="create">Oluşturmak</string>
+    <string name="enterguest">Enter as a guest</string>
+    <string name="forgotpin">PIN kodumu unuttum</string>
+    <string name="enteruremail">E-postanızı giriniz</string>
+    <string name="send">Gönder</string>
+    <string name="resetpin">PIN\'inizi sıfırlayın</string>
+    <string name="enternewpin">Yeni PIN girin (4 numara)</string>
+    <string name="connewpin">Yeni PIN kodunu onayla (4 numara)</string>
+
+
+    <string name="pinno">PIN numarası</string>
+    <string name="create_pin">Raptiye Oluştur</string>
+    <string name="Confirm_pin">Onaylama Pimi</string>
+
+    <string name="pin_not_match">Pim eşleşmiyor</string>
+    <string name="save">Kayıt etmek</string>
+
+    <string name="confirm_pin">PIN\'i onaylayın</string>
+    <string name="number4">(4 numara)</string>
+    <string name="tv_internet">Lütfen İnternet Bağlantınızı Kontrol Edin</string>
+
+
+    <string name="title_enterotp">OTP\'yi girin</string>
+    <string name="title_whatsapp">Naber</string>
+    <string name="title_otpst">OTP Kayıtlı e-posta adresinize gönderildi</string>
+    <string name="title_otpst1">TBu e-posta kimliği Kayıtlı değil, lütfen başka bir e-posta adresi girin</string>
+    <string name="title_otpst2">tamam</string>
+    <string name="title_confirmn">Onaylamak</string>
+    <string name="otp_successfully_verify">OTP Başarıyla Doğruladı</string>
+
+    <string name="title_otp1">OTP\'yi KONTROL EDİN</string>
+    <string name="title_otp2">E-postanıza gönderilen OTP\'yi girin</string>
+    <string name="title_otp3">OTP\'yi girin</string>
+
+    <!--car list vstring-->
+    <string name="filter_txt">filtre</string>
+
+
+    <!--google signin-->
+
+    <string name="Web_Client_Id">223650567703-f9hhjmdivmb3nat5i7b8td60hrutf23k.apps.googleusercontent.com</string>
+
+    <!--config -->
+    <string name="config_type">Yapılandırma türü</string>
+    <string name="create_caregory">Kategori Oluştur</string>
+    <string name="edit_caregory">Kategoriyi Düzenle</string>
+    <string name="spending_category">Harcama kategorisi</string>
+    <string name="icon">ikon</string>
+    <string name="name_catregory">Kategorinin adı</string>
+    <string name="input_type">giriş tipi</string>
+    <string name="config_expense">Yapılandırma Giderleri</string>
+    <string name="config_payment">Ödemeyi Yapılandır</string>
+
+
+    <!--entry car / add payment / add expanse validation-->
+
+    <string name="please_enter_amount">Lütfen tutarı girin</string>
+    <string name="please_select_type">Lütfen tür seçin</string>
+    <string name="please_enter_note">Lütfen not girin</string>
+
+    <string name="please_enter_model">Lütfen model girin</string>
+    <string name="please_enter_plate_or_vin_no">Lütfen plaka veya VIN no.</string>
+    <string name="file_downloading">Dosya indiriliyor ....</string>
+    <string name="please_enter_date">Lütfen tarihten seçim yapın</string>
+    <string name="please_select_date">Lütfen bugüne kadar seçin</string>
+
+    <string name="meta_position">meta_position</string>
+    <string name="meta_title">meta_title</string>
+
+
+    <!--new stringsd added-->
+    <string name="select_currency">Select Currency</string>
+    <string name="select_language">Select Language</string>
+
+
+
+    <string name="select_file_type">Lütfen dosya türünü seçin</string>
+    <string name="downloading">Dosya indiriliyor ....</string>
+    <string name="no_data">bu tarihte veri bulunamadı </string>
+    <string name="change_laguage">Dili değiştir </string>
+
+    <string name="monthaly">MONTHALY </string>
+    <string name="weekly">HAFTALIK </string>
+    <string name="to__day">BUGÜN </string>
+
+    <string name="this_is_your_bal_of_this_job">Bu, bu işin bakiyeniz</string>
+    <string name="total_repair_cars">Toplam onarılan araba</string>
+    <string name="total_of_expen">Toplam gider</string>
+    <string name="final_score">Son skor</string>
+    <string name="total_payments">Toplam tutar</string>
+
+    <string name="income_category">Gelir kategorisi</string>
+    <string name="continue_">Devam et</string>
+    <string name="no_backup">Geri yüklenecek yedek yok</string>
+    <string name="choose_icon">Simgenizi seçin</string>
+    <string name="edit_file">Adı düzenle</string>
+
+    <string name="balance2">özet</string>
+
+
+    <string name="change_the_currency">- Para birimi türünü değiştirme</string>
+    <string name="put_dark_mode"> - Karanlık moda geç</string>
+    <string name="create_back_up"> -Yedek oluşturun</string>
+    <string name="export_comp_file"> -Tam bir dosya verir.</string>
+    <string name="each_file_is"> Her dosya bağımsız</string>
+    <string name="examplee_"> Misal :</string>
+    <string name="name_of_the_hail"> - Dolu adı </string>
+    <string name="operation">- operasyon</string>
+    <string name="worlshop"> - "Atölye"</string>
+    <string name="or_name">- Veya istediğin isim</string>
+    <string name="putt_the_name">-İşiniz için istediğiniz adı girin</string>
+    <string name="push_to_create">-Yeni bir hareket yaratmak için it</string>
+
+
+    <string name="swipe_right">Hareketlerinizi görmek için sağa veya sola kaydırın </string>
+    <string name="sorted_by">sıralama ölçütü (gelir - giderler - ödemeler)</string>
+    <string name="the_city_name">(şehir adı, ay. Seçim sizin!</string>
+    <string name="click_to_add">Eklemek için tıklayın:</string>
+    <string name="your_car">-Arabalarınız</string>
+    <string name="your_exp">- Giderleriniz</string>
+
+    <string name="the_payment">ödeme</string>
+    <string name="you_can_config_all_of_them">Hepsini yapılandırabilirsiniz</string>
+    <string name="session_per">Sezon Dönemi</string>
+    <string name="company">şirket</string>
+    <string name="please_enter_company">Lütfen şirket adını girin</string>
+
+    <string name="splashtext1">KAĞITDAN DAHA İYİ !!!</string>
+    <string name="old_pin">Eski PIN kodunu girin</string>
+
+
+    <!-- //You can configure them all-->
+    <string name="enter_email_phn22">this is not your email</string>
+    <string name="restore_successfully">Restore Successfully</string>
+    <string name="Restore">Onarmak</string>
+
+
+</resources>

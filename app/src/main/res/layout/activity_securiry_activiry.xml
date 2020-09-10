@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activities.Settings">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="1dp"
+        android:layout_alignParentLeft="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightblue2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:weightSum="1">
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="150dp"
+                        android:layout_weight="0.9"
+                        android:padding="@dimen/size_10"
+                        android:src="@drawable/hailnote" />
+
+                    <ToggleButton
+                        android:id="@+id/tb_notify"
+                        android:layout_width="@dimen/size_14"
+                        android:layout_height="@dimen/size_38"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="right|center"
+                        android:layout_marginRight="@dimen/size_20"
+                        android:layout_weight="0.1"
+                        android:background="@drawable/toggle_selector"
+                        android:checked="true"
+                        android:gravity="right"
+                        android:text=""
+                        android:textOff=""
+                        android:textOn="" />
+
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+
+            <LinearLayout
+                android:id="@+id/ll_settings1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:layout_marginTop="@dimen/size_10"
+                android:background="@color/lightblue2"
+                android:orientation="horizontal"
+                android:padding="@dimen/size_8">
+
+                <ImageView
+                    android:id="@+id/img_close_setting"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/size_28"
+                    android:layout_weight="0.1"
+                    android:gravity="left"
+                    android:src="@drawable/ic_close"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size_26" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center"
+                    android:text="@string/Security"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/size_18"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/pinlock_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/ll_settings1"
+                android:layout_alignParentBottom="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="@dimen/size_14"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginRight="@dimen/size_14"
+                    android:background="@drawable/shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="bottom"
+
+                        android:orientation="vertical"
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/size_10"
+                            android:weightSum="1">
+
+                            <ImageView
+                                android:layout_width="19dp"
+                                android:layout_height="@dimen/size_24"
+                                android:layout_gravity="center"
+                                android:background="@drawable/pinlock"
+                                android:backgroundTint="@color/grey"
+                                android:gravity="left" />
+
+                            <TextView
+                                android:id="@+id/tv_pin_lock"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="@dimen/size_20"
+                                android:layout_weight="0.9"
+                                android:fontFamily="@font/latoregular"
+                                android:gravity="left"
+                                android:text="@string/pinlock"
+                                android:textColor="@color/grey"
+                                android:textSize="@dimen/size_16" />
+
+                            <ToggleButton
+                                android:id="@+id/tggl_pin_lock"
+                                android:layout_width="35dp"
+                                android:layout_height="@dimen/size_38"
+                                android:background="@drawable/toggle_selector"
+                                android:checked="false"
+                                android:rotation="180"
+                                android:gravity="left"
+                                android:layout_centerVertical="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_alignParentLeft="true"
+                                android:text=""
+                                android:layout_gravity="right|center"
+                                android:textOff=""
+                                android:textOn="" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="1dp"
+                                android:layout_gravity="right"
+                                android:layout_weight="0.1"
+                                android:background="@color/offoffwhite" />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="1dp"
+                                android:layout_marginLeft="@dimen/size_24"
+                                android:layout_weight="0.9"
+                                android:background="@color/grey" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/size_10"
+                            android:weightSum="1">
+
+                            <ImageView
+                                android:layout_width="19dp"
+                                android:layout_height="@dimen/size_24"
+                                android:layout_gravity="center"
+                                android:background="@drawable/lock"
+                                android:gravity="left" />
+
+                            <TextView
+                                android:id="@+id/tv_fingre_lock"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="@dimen/size_20"
+                                android:layout_weight="0.9"
+                                android:fontFamily="@font/latoregular"
+                                android:gravity="left"
+                                android:text="@string/touch_lock"
+                                android:textColor="@color/grey"
+                                android:textSize="@dimen/size_16" />
+
+                            <ToggleButton
+                                android:id="@+id/tggl_touch_lock"
+                                android:layout_width="35dp"
+                                android:layout_height="@dimen/size_38"
+                                android:background="@drawable/toggle_selector"
+                                android:checked="false"
+                                android:gravity="left"
+                                android:layout_centerVertical="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_alignParentLeft="true"
+                                android:text=""
+                                android:rotation="180"
+                                android:layout_gravity="right|center"
+                                android:textOff=""
+                                android:textOn="" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/temp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/arrow"
+                    android:visibility="invisible"></ImageView>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

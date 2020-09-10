@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:padding="@dimen/size_14"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/caregory_id"
+            android:layout_width="@dimen/size_20"
+            android:layout_height="@dimen/size_20"
+            android:gravity="left"
+            android:layout_gravity="center"
+            android:src="@drawable/cash"
+            android:layout_marginLeft="@dimen/size_40"
+
+            />
+
+        <TextView
+            android:id="@+id/category_name"
+            android:layout_width="0dp"
+            android:layout_weight="0.9"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:fontFamily="@font/latoregular"
+            android:layout_gravity="center"
+            android:textSize="@dimen/size_16"
+            android:textColor="@color/grey"
+            android:layout_marginLeft="@dimen/size_20"
+            android:text="@string/Hotel"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.9"
+        android:layout_gravity="right"
+        android:layout_marginLeft="@dimen/size_90"
+        android:background="@color/color_grey"/>
+
+</LinearLayout>

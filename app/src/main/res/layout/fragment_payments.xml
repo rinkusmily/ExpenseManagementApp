@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/offwhite"
+    tools:context=".fragment.PaymentsFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_payments"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/size_3"
+        android:layout_marginBottom="@dimen/size_10"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_search"
+
+
+        />
+
+
+    <LinearLayout
+        android:id="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/lightblue">
+        <EditText
+            android:id="@+id/edt_fastsearch"
+            android:layout_marginRight="@dimen/size_5"
+            android:layout_marginLeft="@dimen/size_5"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:fontFamily="@font/latoregular"
+            android:layout_marginTop="@dimen/size_10"
+            android:layout_marginBottom="@dimen/size_10"
+            android:background="@drawable/trans_edtbg"
+            android:hint="@string/fastfind"
+            android:drawablePadding="@dimen/size_14"
+            android:textColor="@color/grey_text"
+            android:textColorHint="@color/grey_text"
+            android:inputType="text"
+            android:paddingLeft="@dimen/size_10"
+            android:drawableRight="@drawable/ic_search"
+            android:textSize="@dimen/size_14" />
+
+        <ImageView
+            android:id="@+id/img_home"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_iconfinder_home"
+            />
+
+        <TextView
+            android:id="@+id/edt_share"
+            android:layout_marginRight="@dimen/size_5"
+            android:layout_marginLeft="@dimen/size_5"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/latoregular"
+            android:layout_marginTop="@dimen/size_10"
+            android:layout_marginBottom="@dimen/size_10"
+            android:background="@drawable/trans_edtbg"
+            android:hint="@string/Share"
+            android:drawablePadding="1dp"
+            android:paddingRight="15dp"
+            android:ellipsize="end"
+            android:textColor="@color/grey_text"
+            android:textColorHint="@color/grey_text"
+            android:inputType="textCapWords"
+            android:drawableLeft="@drawable/ic_share"
+            android:textSize="@dimen/size_14" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

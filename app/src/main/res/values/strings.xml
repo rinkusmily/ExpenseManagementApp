@@ -1,0 +1,281 @@
+<resources>
+    <string name="app_name">Hail Note</string>
+
+    <string name="splashtext2">Toca para continuar..</string>
+    <string name="login">Login</string>
+    <string name="google">Google</string>
+    <string name="ios">iOS</string>
+    <string name="or">OR</string>
+    <string name="createaccount">Create your account</string>
+
+    <string name="bycreateaccount">By Creating an account, you agree to our</string>
+    <string name="terms"><u>Terms</u></string>
+    <string name="alreadyacc">Already have an account?</string>
+    <string name="signin"><u>Signin</u></string>
+    <string name="hail">HAIL</string>
+    <string name="Note">NOTE</string>
+    <string name="hailmonth">Hail/ Month</string>
+    <string name="houston">HOUSTON,TX</string>
+    <string name="example">EXAMPLE</string>
+    <string name="find">Find</string>
+    <string name="settings">Setup</string>
+    <string name="currency">Currency</string>
+    <string name="Appearance">Appearance</string>
+    <string name="Security">Setup</string>
+    <string name="pinlock">Pin Lock</string>
+    <string name="touch_lock">Finger Print Lock</string>
+    <string name="enable_dark_mode">Enable Dark Mode</string>
+    <string name="from_date">Select From Date</string>
+    <string name="to_date">Select To Date</string>
+
+
+    <string name="Backup">Backup</string>
+
+    <string name="Adavancedsettings">Adavanced Settings</string>
+    <string name="Export">Export as File</string>
+    <string name="makepro">Become Premium</string>
+    <string name="logout">Signout</string>
+
+
+    <!--alert messages and toast messges-->
+    <string name="are_your_sure">Are you sure you want Signout ?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="forgot_password">Forgot password ?</string>
+
+
+    <string name="expenses">Expenses</string>
+    <string name="Hotel">Hotel</string>
+    <string name="Fuel">Fuel</string>
+    <string name="Food">Food</string>
+    <string name="Tools">Tools</string>
+    <string name="Tickets">Tickets</string>
+
+    <string name="payment">Payment</string>
+    <string name="cash">Cash</string>
+    <string name="pay">Pay Check</string>
+    <string name="bank">Bank Transfer</string>
+    <string name="date">Date</string>
+    <string name="Automatic">Automatic</string>
+    <string name="model">Model</string>
+    <string name="plateorvin">Plate or VIN</string>
+    <string name="notes">Notes</string>
+    <string name="ok">OK</string>
+    <string name="entry">Enter car</string>
+    <string name="type">Type</string>
+    <string name="transfer">Transfer</string>
+    <string name="today">Today(7/4/2020)</string>
+
+    <string name="takings">Takings</string>
+    <string name="balance">Balance</string>
+
+    <string name="payments">Payments</string>
+    <string name="movememnts">Movements</string>
+    <string name="car">Car List</string>
+    <string name="all">All</string>
+    <string name="fastfind">Fast Find</string>
+    <string name="Share">Share</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="config">Config all your things</string>
+    <string name="clickhere">Click here to create a new file</string>
+    <string name="dontshow">don\'t show again</string>
+    <string name="finddoc">Find your document here</string>
+    <string name="enentdate">event date</string>
+    <string name="exampleofpayment">example of payment type(show type)</string>
+    <string name="shownnote">show note attached</string>
+
+    <string name="vehicle">Vehicle</string>
+    <string name="Price">Price</string>
+    <string name="Finished">Finished</string>
+    <string name="Invoiced">Invoiced</string>
+    <string name="Paid">Paid Out</string>
+    <string name="putname">Put the name you want for your work( the city name, the month , ite your choice!!! </string>
+    <string name="putcreate">Put to create a new movement</string>
+    <string name="swipe">Swipe right or left to see your movements sorted by (income-expenses-payments)</string>
+    <string name="findmove">Find your movements fast !!!</string>
+    <string name="sharefiles">Share your files or export pdf/cvs</string>
+
+    <string name="Createac">Create your account</string>
+
+    <!--sign in screen-->
+    <string name="sign_in_txt">Sign In</string>
+    <string name="email_phone_txt">Enter email / phone </string>
+    <string name="mobile_phn_txt">Enter Mobile No. </string>
+    <string name="country_code">+54</string>
+    <string name="password_txt">Enter Password </string>
+    <string name="dnt_have_acc">Dont have an Account?</string>
+
+    <!--sign up validation string-->
+    <string name="enter_name">Please enter name</string>
+    <string name="enter_email">Please enter email</string>
+    <string name="enter_valid_email">Please enter valid email</string>
+    <string name="enter_valid_mob">Please enter valid mobile no.</string>
+
+    <!--login-->
+    <string name="enter_email_phn">Please enter email or mobile no.</string>
+
+    <string name="enter_confirm_email">Please enter confirm email</string>
+    <string name="enter_phone">Please enter phone</string>
+    <string name="enter_c_code">Please enter country code first</string>
+    <string name="enter_pin">Please enter phin</string>
+    <string name="enter_confirm_pin">Please enter Confirm phin</string>
+    <string name="next">Next</string>
+
+
+    <!--Reset pin-->
+    <string name="enter_new_pin">Please enter new PIN</string>
+    <string name="enter_cinferm_pin">Please enter confirm PIN</string>
+    <!--   <string name="pin_not_match">PIN not match</string>-->
+
+    <!--register-->
+    <string name="entername">Enter your name</string>
+    <string name="enteremail">Enter E-mail</string>
+    <string name="confirmemail">Confirm E-mail</string>
+    <string name="enterpin">Enter PIN(4 numbers)</string>
+    <string name="confirmpin">Confirm PIN(4 numbers)</string>
+    <string name="create">Create</string>
+    <string name="enterguest">Enter as a guest</string>
+    <string name="forgotpin">Forgot my PIN</string>
+    <string name="enteruremail">Enter your e-mail</string>
+    <string name="send">Send</string>
+    <string name="resetpin">Reset your PIN</string>
+    <string name="enternewpin">Enter new PIN(4 numbers)</string>
+    <string name="connewpin">Confirm new PIN(4 numbers)</string>
+
+
+    <string name="pinno">PIN number</string>
+    <string name="create_pin">Create Pin</string>
+    <string name="Confirm_pin">Confitm Pin</string>
+
+    <string name="pin_not_match">Pin does not match</string>
+    <string name="save">Save</string>
+
+    <string name="confirm_pin">Confirm Pin</string>
+    <string name="number4">(4 numbers)</string>
+    <string name="tv_internet">Please Check Your Internet Connection</string>
+
+
+    <string name="title_enterotp">Enter OTP</string>
+    <string name="title_whatsapp">Whatsapp</string>
+    <string name="title_otpst">OTP has been sent to your Registered email address</string>
+    <string name="title_otpst1">This email id is not Registered please enter another email address</string>
+    <string name="title_otpst2">OK</string>
+    <string name="title_confirmn">Confirm</string>
+    <string name="otp_successfully_verify">OTP Successfully Verify</string>
+
+    <string name="title_otp1">CHECK OTP</string>
+    <string name="title_otp2">Enter OTP sent on your Email</string>
+    <string name="title_otp3">Enter OTP</string>
+
+    <!--car list vstring-->
+    <string name="filter_txt">Filter</string>
+
+
+    <!--google signin-->
+
+    <string name="Web_Client_Id">223650567703-f9hhjmdivmb3nat5i7b8td60hrutf23k.apps.googleusercontent.com</string>
+
+    <!--config -->
+    <string name="config_type">Config type</string>
+    <string name="create_caregory">Create Category</string>
+    <string name="edit_caregory">Edit Category</string>
+    <string name="spending_category">Spending category</string>
+    <string name="icon">Icon</string>
+    <string name="name_catregory">Name of category</string>
+    <string name="input_type">input type</string>
+    <string name="config_expense">Config  Expenses</string>
+    <string name="config_payment">Config  Payment</string>
+
+
+    <!--entry car / add payment / add expanse validation-->
+
+    <string name="please_enter_amount">Please enter amount</string>
+    <string name="please_select_type">Please select type</string>
+    <string name="please_enter_note">Please enter note</string>
+
+    <string name="please_enter_model">Please enter model</string>
+    <string name="please_enter_plate_or_vin_no">Please enter plate or VIN no.</string>
+    <string name="file_downloading">File is downloading....</string>
+    <string name="please_enter_date">Please select from date</string>
+    <string name="please_select_date">Please select to date</string>
+
+    <string name="meta_position">meta_position</string>
+    <string name="meta_title">meta_title</string>
+
+
+    <!--new stringsd added-->
+    <string name="select_currency">Select Currency</string>
+    <string name="select_language">Select Language</string>
+
+    <string name="select_file_type">Please select file type</string>
+    <string name="downloading">File is downloading....</string>
+    <string name="no_data">no data found on this date </string>
+    <string name="change_laguage">Change Language </string>
+
+    <string name="monthaly">MONTHALY </string>
+    <string name="weekly">WEEKLY </string>
+    <string name="to__day">TO DAY </string>
+
+    <string name="this_is_your_bal_of_this_job">This is your balance of this job</string>
+    <string name="total_repair_cars">Total repaired cars</string>
+    <string name="total_of_expen">Total of expenses</string>
+    <string name="final_score">Final score</string>
+    <string name="total_payments">Total payments</string>
+
+    <string name="income_category">Income category</string>
+    <string name="continue_">Continue</string>
+    <string name="no_backup">There is no backup to restore</string>
+    <string name="choose_icon">Choose your icon</string>
+    <string name="edit_file">Edit name</string>
+
+    <string name="balance2">Summary</string>
+
+
+    <string name="change_the_currency">- Change the currency type</string>
+    <string name="put_dark_mode"> - Put in dark mode</string>
+    <string name="create_back_up"> -Create a backup</string>
+    <string name="export_comp_file"> -Exports a complete file.</string>
+    <string name="each_file_is"> Each file is independent</string>
+    <string name="examplee_"> Example :</string>
+    <string name="name_of_the_hail"> - Name of the hail </string>
+    <string name="operation"> - operation </string>
+    <string name="worlshop"> - "Workshop" </string>
+    <string name="or_name">- Or the name that you want </string>
+    <string name="putt_the_name">-Put the name you want for your work</string>
+    <string name="push_to_create">-Push to create a new movement </string>
+
+
+    <string name="swipe_right">Swipe right or left to see your movements </string>
+    <string name="sorted_by">sorted by (income - expenses - payments) </string>
+    <string name="the_city_name">(the city name, the month. It is your choice! </string>
+    <string name="click_to_add">Click to add:</string>
+    <string name="your_car">-Your cars</string>
+    <string name="your_exp">-Your expenses</string>
+
+    <string name="the_payment">the_payment</string>
+    <string name="you_can_config_all_of_them">You can configure them all</string>
+    <string name="session_per">Season Period</string>
+    <string name="company">Company</string>
+    <string name="please_enter_company">Please enter company name</string>
+
+    <string name="splashtext1">BETTER THAN PAPPER !!!</string>
+    <string name="old_pin">Enter old pin</string>
+
+
+    <!-- //You can configure them all-->
+    <string name="enter_email_phn22">this is not your email</string>
+    <string name="restore_successfully">Restore Successfully</string>
+    <string name="Restore">Restore</string>
+    <string name="export_successfully">Export data successfuly</string>
+    <string name="filter_date">Filter date</string>
+    <string name="select_custome_date">Select date</string>
+    <string name="are_you_sure_to_delete_this_file">Are you sure , you want to delete this file ?</string>
+    <string name="alart">Alert!</string>
+    <string name="delete_msg">deleted</string>
+    <string name="are_your_sure_want_delete">Are you sure you want to delete?</string>
+    <string name="delete">Delete</string>
+
+
+</resources>

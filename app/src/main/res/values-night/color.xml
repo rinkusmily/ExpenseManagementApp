@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#60C6FD</color>
+    <color name="colorPrimaryDark">#60C6FD</color>
+    <color name="colorAccent">#60C6FD</color>
+
+    <color name="black">#000</color>
+    <color name="black2">#FFF</color>
+    <color name="white">#FFF</color>
+    <color name="white2">#000</color>
+    <color name="white9">#000</color>
+    <color name="white5">#47525E</color>
+    <color name="grey">#FFF</color>
+    <color name="grey_text">#47525E</color>
+    <color name="grey9">#FFF</color>
+    <color name="grey2">#FFF</color>
+    <color name="darkgrey">#FF343F4B</color>
+    <color name="darkgrey3">#FF343F4B</color>
+    <color name="darkgrey9">#FF343F4B</color>
+    <color name="darkgrey2">#FFF</color>
+    <color name="lightllgrey_3">#969FAA</color>
+
+    <color name="white_gray">#8190A5</color>
+    <color name="gray_white">#000</color>
+
+    <color name="color_grey">#969FAA</color>
+    <color name="color_grey2">#FFF</color>
+    <color name="lightgrey">#899098</color>
+    <color name="grey3">#47525E</color>
+    <color name="lightgrey2">#f8f8f8</color>
+    <color name="lightllgrey">#f8f8f8</color>
+    <color name="lightllgrey_">#969FAA</color>
+    <color name="greylight">#FF969FAA</color>
+    <color name="greyllight">#8190A5</color>
+    <color name="offwhite">#FF343F4B</color>
+    <color name="lightllgrey_2">#969FAA</color>
+    <color name="offoffwhite">#FF343F4B</color>
+    <color name="lightblue">#000</color>
+    <color name="lightblue5">#FF343F4B
+    </color>
+
+    <color name="lightblue2">#FF343F4B</color>
+    <color name="blue">#60C6FD</color>
+    <color name="red">#f6383d</color>
+    <color name="green">#77D353</color>
+    <color name="d">#727272</color>
+    <color name="s">#FF343F4B</color>
+</resources>

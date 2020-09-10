@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tab"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/balance2"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/latoregular"
+        android:textColor="@color/lightllgrey"
+        android:textStyle="bold"
+        android:textSize="10dp"
+    />

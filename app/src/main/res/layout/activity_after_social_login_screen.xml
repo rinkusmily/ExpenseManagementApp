@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    tools:context=".activities.ResetPIN">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_currency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_currency"
+            android:background="@drawable/btn_bg"
+            android:padding="@dimen/size_10"
+            android:layout_marginRight="@dimen/size_30"
+            android:layout_marginLeft="@dimen/size_30"
+            android:layout_marginTop="@dimen/size_26"
+            android:drawableRight="@drawable/ic_right"
+            android:drawableTint="@color/darkgrey"
+            style="@style/mySpinnerItemStyle"
+            android:fontFamily="@font/latoregular"
+            android:textColor="@color/lightgrey2"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/lightgrey2"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
+            android:padding="@dimen/size_10"
+            android:layout_marginRight="@dimen/size_30"
+            android:layout_marginLeft="@dimen/size_30"
+            android:layout_marginTop="@dimen/size_26">
+
+
+            <Spinner
+                android:id="@+id/spn_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tooltipText="@string/select_language"
+                style="@style/mySpinnerItemStyle"
+                android:backgroundTint="@color/grey2"
+                android:fontFamily="@font/latoregular"
+
+                />
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_continue"
+            android:textSize="@dimen/size_14"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:padding="@dimen/size_14"
+            android:background="@drawable/grey_roundedbg"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size_30"
+            android:fontFamily="@font/latoregular"
+            android:layout_marginLeft="@dimen/size_30"
+            android:layout_marginTop="@dimen/size_30"
+            android:textStyle="bold"
+            android:text="@string/continue_"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

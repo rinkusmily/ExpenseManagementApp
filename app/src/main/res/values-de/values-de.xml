@@ -1,0 +1,268 @@
+<resources>
+    <string name="app_name">ExpenseManagementApp</string>
+<!--    <string name="splashtext1">MEJOR QUE EL PAPEL</string>-->
+    <string name="splashtext2">Toca para continuar..</string>
+    <string name="login">Anmeldung</string>
+    <string name="google">Google</string>
+    <string name="ios">iOS</string>
+    <string name="or">ODER</string>
+    <string name="createaccount">Erstelle deinen Account</string>
+
+    <string name="bycreateaccount">Durch das Erstellen eines Kontos stimmen Sie unseren zu</string>
+    <string name="terms"><u>Bedingungen</u></string>
+    <string name="alreadyacc">Sie haben bereits ein Konto?</string>
+    <string name="signin"><u>Anmelden</u></string>
+    <string name="hail">HAIL</string>
+    <string name="Note">NOTE</string>
+    <string name="hailmonth">Hail/ Month</string>
+    <string name="houston">HOUSTON,TX</string>
+    <string name="example">BEISPIEL</string>
+    <string name="find">Finden</string>
+    <string name="settings">Rahmen</string>
+    <string name="currency">Währung</string>
+    <string name="Appearance">Aussehen</string>
+    <string name="Security">Sicherheit</string>
+    <string name="pinlock">Pin Sperre</string>
+    <string name="touch_lock">Fingerabdrucksperre</string>
+    <string name="enable_dark_mode">Aktivieren Sie den Dunkelmodus</string>
+    <string name="from_date">Wählen Sie Von Datum</string>
+    <string name="to_date">Wählen Sie Bis Datum</string>
+
+
+    <string name="Backup">Backup</string>
+    <string name="Adavancedsettings">Erweiterte Einstellungen</string>
+    <string name="Export">Als Datei exportieren</string>
+    <string name="makepro">Mach es PRO !!</string>
+    <string name="logout">Ausloggen</string>
+
+
+    <!--alert messages and toast messges-->
+    <string name="are_your_sure">Sind Sie sicher, dass Sie sich abmelden möchten?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="forgot_password">Passwort vergessen ?</string>
+
+
+    <string name="expenses">Expenses</string>
+    <string name="Hotel">Hotel</string>
+    <string name="Fuel">Fuel</string>
+    <string name="Food">Food</string>
+    <string name="Tools">Tools</string>
+    <string name="Tickets">Tickets</string>
+
+    <string name="payment">Payment</string>
+    <string name="cash">Cash</string>
+    <string name="pay">Pay Check</string>
+    <string name="bank">Bank Transfer</string>
+    <string name="date">Datum</string>
+    <string name="Automatic">Automatisch</string>
+    <string name="model">Modell</string>
+    <string name="plateorvin">Platte / VIN</string>
+    <string name="notes">Anmerkungen</string>
+    <string name="ok">OK</string>
+    <string name="entry">Auto betreten</string>
+    <string name="type">Art</string>
+    <string name="transfer">Transfer</string>
+    <string name="today">Heute (04.07.2020)</string>
+    <string name="takings">Einkommen</string>
+    <string name="balance">Balance</string>
+    <string name="payments">Zahlungen</string>
+    <string name="movememnts">Bewegungen</string>
+    <string name="car">Auto Liste</string>
+    <string name="all">Alle</string>
+    <string name="fastfind">Schnelle Suche</string>
+    <string name="Share">Teilen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="config">Konfigurieren Sie alles von hier aus</string>
+    <string name="clickhere">Klicken Sie hier, um ein neues Dokument hinzuzufügen und ihm einen Namen zu geben</string>
+    <string name="dontshow">nicht wieder zeigen</string>
+    <string name="finddoc">Hier finden Sie Ihr Dokument</string>
+    <string name="enentdate">Veranstaltungsdatum</string>
+    <string name="exampleofpayment">Beispiel für Zahlungsart (Showtyp)</string>
+    <string name="shownnote">Notiz anzeigen im Anhang</string>
+
+    <string name="vehicle">Fahrzeug</string>
+    <string name="Price">Preis</string>
+    <string name="Finished">Preis</string>
+    <string name="Invoiced">In Rechnung gestellt</string>
+    <string name="Paid">Ausbezahlt</string>
+    <string name="putname">Put the name you want for your work( the city name, the month , ite your choice!!! </string>
+    <string name="putcreate">Put to create a new movement</string>
+    <string name="swipe">Wischen Sie nach rechts oder links, um Ihre Bewegungen sortiert nach (Einnahmen-Ausgaben-Zahlungen) zu sehen.</string>
+    <string name="findmove">Find your movements\nfast !!!</string>
+    <string name="sharefiles">Teilen Sie Ihre Dateien oder exportieren Sie PDFs / Lebensläufe</string>
+
+    <string name="Createac">Erstelle deinen Account</string>
+
+    <!--sign in screen-->
+    <string name="sign_in_txt">Anmelden</string>
+    <string name="email_phone_txt">E-Mail / Telefon eingeben </string>
+    <string name="mobile_phn_txt">Geben Sie die Handynummer ein.</string>
+    <string name="country_code">+54</string>
+    <string name="password_txt">Passwort eingeben</string>
+    <string name="dnt_have_acc">Sie haben noch kein Konto?</string>
+
+    <!--sign up validation string-->
+    <string name="enter_name">Bitte geben Sie den Namen ein</string>
+    <string name="enter_email">Bitte geben Sie eine E-Mail-Adresse ein</string>
+    <string name="enter_valid_email">Bitte eine gültige Email eingeben</string>
+    <string name="enter_valid_mob">Bitte geben Sie eine gültige Handynummer ein.</string>
+
+    <!--login-->
+    <string name="enter_email_phn">Bitte geben Sie E-Mail oder Handynummer ein.</string>
+    <string name="enter_confirm_email">Bitte geben Sie eine Bestätigungs-E-Mail ein</string>
+    <string name="enter_phone">Bitte geben Sie das Telefon ein</string>
+    <string name="enter_c_code">Bitte geben Sie zuerst den Ländercode ein</string>
+    <string name="enter_pin">Bitte geben Sie pin ein</string>
+    <string name="enter_confirm_pin">Bitte geben Sie Pin bestätigen ein</string>
+    <string name="next">Nächster</string>
+
+
+    <!--Reset pin-->
+    <string name="enter_new_pin">Bitte geben Sie eine neue PIN ein</string>
+    <string name="enter_cinferm_pin">Bitte geben Sie die Bestätigungs-PIN ein</string>
+    <!--   <string name="pin_not_match">PIN not match</string>-->
+
+    <!--register-->
+    <string name="entername">Gib deinen Namen ein</string>
+    <string name="enteremail">Email eingeben</string>
+    <string name="confirmemail">Bestätigungs-E-Mail</string>
+    <string name="enterpin">PIN eingeben (4 Nummern)</string>
+    <string name="confirmpin">Bestätigen Sie die PIN (4 Nummern)</string>
+    <string name="create">Erstellen</string>
+    <string name="enterguest">Enter as a guest</string>
+    <string name="forgotpin">Forgot my PIN</string>
+    <string name="enteruremail">Enter your e-mail</string>
+    <string name="send">Send</string>
+    <string name="resetpin">Reset your PIN</string>
+    <string name="enternewpin">Enter new PIN(4 numbers)</string>
+    <string name="connewpin">Confirm new PIN(4 numbers)</string>
+
+
+    <string name="pinno">PIN number</string>
+    <string name="create_pin">Create Pin</string>
+    <string name="Confirm_pin">Confitm Pin</string>
+
+    <string name="pin_not_match">Pin does not match</string>
+    <string name="save">Save</string>
+
+    <string name="confirm_pin">Confirm Pin</string>
+    <string name="number4">(4 numbers)</string>
+    <string name="tv_internet">Please Check Your Internet Connection</string>
+
+
+    <string name="title_enterotp">Enter OTP</string>
+    <string name="title_whatsapp">Whatsapp</string>
+    <string name="title_otpst">OTP has been sent to your Registered email address</string>
+    <string name="title_otpst1">This email id is not Registered please enter another email address</string>
+    <string name="title_otpst2">OK</string>
+    <string name="title_confirmn">Confirm</string>
+    <string name="otp_successfully_verify">OTP erfolgreich überprüfen</string>
+
+    <string name="title_otp1">OTP PRÜFEN</string>
+    <string name="title_otp2">Geben Sie das in Ihrer E-Mail gesendete OTP ein</string>
+    <string name="title_otp3">Geben Sie OTP ein</string>
+
+    <!--car list vstring-->
+    <string name="filter_txt">Filter</string>
+
+
+    <!--google signin-->
+
+    <string name="Web_Client_Id">223650567703-f9hhjmdivmb3nat5i7b8td60hrutf23k.apps.googleusercontent.com</string>
+
+    <!--config -->
+    <string name="config_type">Konfigurationstyp</string>
+    <string name="create_caregory">Kategorie erstellen</string>
+    <string name="edit_caregory">Kategorie bearbeiten</string>
+    <string name="spending_category">Ausgabenkategorie</string>
+    <string name="icon">Symbol</string>
+    <string name="name_catregory">Name der Kategorie</string>
+    <string name="input_type">Eingabetyp</string>
+    <string name="config_expense">Konfigurationskosten</string>
+    <string name="config_payment">Zahlung konfigurieren</string>
+
+
+    <!--entry car / add payment / add expanse validation-->
+
+    <string name="please_enter_amount">Bitte geben Sie den Betrag ein</string>
+    <string name="please_select_type">Bitte Typ auswählen</string>
+    <string name="please_enter_note">Bitte beachten Sie die Notiz</string>
+
+    <string name="please_enter_model">Bitte geben Sie das Modell ein</string>
+    <string name="please_enter_plate_or_vin_no">Bitte geben Sie das Kennzeichen oder die Fahrgestellnummer ein.</string>
+    <string name="file_downloading">Datei wird heruntergeladen ....</string>
+    <string name="please_enter_date">Bitte wählen Sie ab Datum</string>
+    <string name="please_select_date">Bitte bis heute auswählen</string>
+
+    <string name="meta_position">meta_position</string>
+    <string name="meta_title">meta_title</string>
+
+
+    <!--new stringsd added-->
+    <string name="select_currency">Bitte wählen Sie ab Datum</string>
+    <string name="select_language">Bitte bis heute auswählen</string>
+
+
+    <string name="select_file_type">Bitte wählen Sie den Dateityp</string>
+    <string name="downloading">Datei wird heruntergeladen ....</string>
+    <string name="no_data">Zu diesem Datum wurden keine Daten gefunden</string>
+    <string name="change_laguage">Sprache ändern </string>
+
+    <string name="monthaly">MONATLICH </string>
+    <string name="weekly">WÖCHENTLICH </string>
+    <string name="to__day">HEUTE </string>
+
+    <string name="this_is_your_bal_of_this_job">Dies ist Ihr Gleichgewicht zwischen diesem Job</string>
+    <string name="total_repair_cars">Insgesamt reparierte Autos</string>
+    <string name="total_of_expen">Summe der Ausgaben</string>
+    <string name="final_score">Endergebnis</string>
+    <string name="total_payments">Gesamtzahlungen</string>
+
+    <string name="income_category">Einkommenskategorie</string>
+    <string name="continue_">Fortsetzen</string>
+    <string name="no_backup">Es muss kein Backup wiederhergestellt werden</string>
+    <string name="choose_icon">Wählen Sie Ihr Symbol</string>
+    <string name="edit_file">Namen bearbeiten</string>
+
+    <string name="balance2">Zusammenfassung</string>
+
+
+    <string name="change_the_currency">- Ändern Sie den Währungstyp</string>
+    <string name="put_dark_mode">- In den dunklen Modus versetzen</string>
+    <string name="create_back_up">-Erstelle ein Backup</string>
+    <string name="export_comp_file"> -Exportiert eine vollständige Datei.</string>
+    <string name="each_file_is"> Jede Datei ist unabhängig</string>
+    <string name="examplee_"> Beispiel:</string>
+    <string name="name_of_the_hail"> - Name des Hagels </string>
+    <string name="operation">- Operation </string>
+    <string name="worlshop"> - "Werkstatt" </string>
+    <string name="or_name">- Geben Sie den gewünschten Namen für Ihre Arbeit ein </string>
+    <string name="putt_the_name">-Drücken Sie, um eine neue Bewegung zu erstellen</string>
+    <string name="push_to_create">Wischen Sie nach rechts oder links, um Ihre Bewegungen zu sehen </string>
+
+
+    <string name="swipe_right">sortiert nach (Einnahmen - Ausgaben - Zahlungen) </string>
+    <string name="sorted_by">(der Name der Stadt, der Monat. Sie haben die Wahl! </string>
+    <string name="the_city_name">(the city name, the month. It is your choice! </string>
+    <string name="click_to_add">Klicken Sie, um hinzuzufügen:</string>
+    <string name="your_car">-Ihre Autos</string>
+    <string name="your_exp">-Ihre Ausgaben</string>
+
+    <string name="the_payment">die Bezahlungt</string>
+    <string name="you_can_config_all_of_them">Sie können sie alle konfigurieren</string>
+    <string name="session_per">Saisonzeitraum</string>
+    <string name="company">Unternehmen</string>
+    <string name="please_enter_company">Bitte geben Sie den Firmennamen ein</string>
+
+    <string name="splashtext1">BESSER ALS PAPIER !!!</string>
+    <string name="old_pin">Geben Sie Ihre alte PIN ein</string>
+
+
+    <!-- //You can configure them all-->
+    <string name="enter_email_phn22">this is not your email</string>
+    <string name="restore_successfully">Restore Successfully</string>
+    <string name="Restore">Herstellen</string>
+
+</resources>

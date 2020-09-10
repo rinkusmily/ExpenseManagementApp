@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightllgrey_2"
+    android:layout_marginBottom="20dp"
+    android:paddingBottom="15dp"
+   >
+
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_settings1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="@dimen/size_10"
+        android:background="@color/lightblue2"
+        android:orientation="horizontal"
+        android:padding="@dimen/size_8">
+
+        <ImageView
+            android:id="@+id/img_close_setting"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_28"
+            android:layout_weight="0.1"
+            android:gravity="left"
+            android:src="@drawable/ic_close"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_26" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:fontFamily="@font/latoregular"
+            android:gravity="center"
+            android:text="@string/select_file_type"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/size_18"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_pdf"
+            android:id="@+id/img_pdf"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Okay"
+            android:textColor="#ffffff"
+            android:src="@drawable/ic_csv_file"
+
+            android:layout_marginLeft="20dp"
+            android:id="@+id/img_csv"/>
+    </LinearLayout>
+</LinearLayout>
